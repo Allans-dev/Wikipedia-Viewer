@@ -1,0 +1,68 @@
+body{
+background-color: #2ecc71;
+font-family: 'Lora', serif;
+}
+h1{
+  text-align: center;
+  color: white;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-weight: 200;
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+}
+form input{
+background-color: white;
+opacity: 0.6;
+border-radius: 10px;
+font-size: 20px;
+}
+#result{
+ margin-top: 600px;
+ margin-left: 25%;
+ margin-right: 25%;
+ padding: 1% 2% 1% 2%;
+ text-align: left;
+ background-color: white;
+ opacity: 0.8;
+ border-radius: 15px;
+}
+#result:hover{
+  opacity: 1;
+}
+#result h2{
+  text-align: left;
+  margin: auto;
+  border: none;
+  background-image: none;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+button{
+  color: white;
+  background-color: #27ae60;
+  border: none;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+button:focus{
+  outline: none;
+}
+button:hover{
+  background-color: #6dde9d;
+}
+#searchField{
+  text-align: center;
+}
+#error{
+  margin: 4% 35% 0% 35%;
+  text-align: left;
+  background-color: white;
+  padding: 1% 2% 1% 2%;
+  display: none;
+  border-radius: 15px;
+  opacity: 0.8;
+}
